@@ -20,8 +20,13 @@ Simply by installing a package through pip, or running it in a container, giving
 
 * Create a simple CLI wrapper for the local piper command, this mitigates the end-user to have something like the `say` command on MacOs, but on other Unix-Like and Windows systems through python. Tinking about the game 'Simon Says' and combining that with our primary CLI command `mrrobot` it would become `mrrobot says` to sound out local and remote information by request.
 
+#### Basic CLI Wrapper Requirements
+
+- Ensure piper only runs in a Python Virtual Environment.
+- When $VIRTUAL_ENV is null or '' Create a Virtual Environment at `$HOME/venv/
+
 #### CLI Wrapper Self Building Bonus
 
 > This section declares one of the endless possibilities when you're in-control yourself.
 
-* Ensure the structure of this project is simply inherited by any end-user to build-their-own, but easily. For example; When a end-user wants to have a different cli-command, and run from source code on locally built binaries, This should also be made easy by having a command option like `
+* Ensure the structure of this project is simply inherited by any end-user to build-their-own, but easily. For example; When a end-user wants to have a different cli-command, and run from source code on locally built binaries, This should also be made easy by having a command option like `mrrobot build self --cmd-name msrobot` an d a workflow to pulls the source code, build the package for cli command `msrobot`. Appending `--self-terminate` to remove the original command.
