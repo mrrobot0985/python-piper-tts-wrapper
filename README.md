@@ -9,7 +9,7 @@ Imagine any machine to simply talk to you in your native language through the au
 
 Simply by installing a package through pip, or running it in a container, giving your machine the ability to speak!
 
-> I know, I'm overselling it, but on the other hand, I'm also a strong believer in setting obvious, but simple goals, and have my imagination run wild on the endless possibilities. ( I can't is only true when you don't try. ) 
+> I know, I'm overselling it, but on the other hand, I'm also a strong believer in setting obvious, but simple goals, and have my imagination run wild on the endless possibilities. ( Mantra: "I can't! Can only true when you I don't try!" ) 
 
 
 ### Basic CLI Wrapper
